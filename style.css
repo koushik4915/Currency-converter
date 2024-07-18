@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.main-img{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+    z-index: 1;   
+}
+
+.main{
+    height: 380px;
+    width: 290px;
+    background-color: transparent;
+    backdrop-filter: blur(10px);
+    position: absolute;
+    z-index: 2;
+    box-shadow: 0px 0px 20px 20px rgb(0, 0, 0);
+}
+
+h1{
+    margin-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    color: white;
+}
+
+.input-heading{
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-top: 15px;
+    margin-left: 18px;
+    margin-bottom: 5px;
+}
+
+.input{
+    height: 25px;
+    width: 80%;
+    margin-left: 18px;
+    border: transparent;
+    padding-left: 7px;
+}
+
+.input:focus {
+    outline: none;
+}
+
+.from-to{
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    font-size: 1.3rem;
+    font-weight: 100;
+    margin-top: 18px;
+}
+
+.select-container{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+    align-items: center;
+}
+
+.from-img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.to-img{
+    height: 2rem;
+    width: 2rem;
+}
+
+.from{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown{
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+}
+
+
+.to{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dropdown{
+    border: none;
+    border-radius: 3px;
+    height: 20px;
+}
+
+.msg{
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 50;
+    margin-top: 20px;
+    margin-left: 15px;
+}
+
+.click{
+    height: 40px;
+    width: 80%;
+    background-color: black;
+    color: white;
+    font-size: 1.5rem;
+    font-weight: 100;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 25px;
+    border-radius: 5px;
+}
+
+.click:hover{
+    cursor: pointer;
+    opacity: 80%;
+}

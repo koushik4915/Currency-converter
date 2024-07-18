@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Curency converter</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <img class="main-img" src="main.jpg" alt="" />
+      <div class="overlay"></div>
+      <div class="main">
+        <h1>Curency converter</h1>
+        <p class="input-heading">Enter amount :</p>
+        <input class="input" type="text" />
+        <div class="from-to">
+          <p class="from">From :</p>
+          <p class="to">To :</p>
+        </div>
+        <div class="select-container">
+          <div class="from">
+            <img class="from-img" src="https://flagsapi.com/US/flat/64.png" />
+            <select class="dropdown" name="from" id="from"></select>
+          </div>
+
+          <i class="fa-solid fa-arrow-right-arrow-left"></i>
+
+          <div class="to">
+            <img class="to-img" src="https://flagsapi.com/IN/flat/64.png" />
+            <select class="dropdown" name="to" id="to"></select>
+          </div>
+        </div>
+
+        <p class="msg">1 USD = 8.34 INR</p>
+        <div class="click">EXCHANGE</div>
+      </div>
+    </div>
+    <script src="codes.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
